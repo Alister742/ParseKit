@@ -1,0 +1,25 @@
+<Modules>
+  <Module PersistentId="1B95764F-2998-4F3C-A1E5-B634BEDE2087" ModuleId="Downloader" />
+  <Module PersistentId="53CDFE7E-7CEE-4717-B932-0C4431291776" ModuleId="GIU" />
+  <Module PersistentId="FD150915-D34F-436A-92C1-80AA505DA754" ModuleId="HtmlParserSharp" />
+  <Module PersistentId="1E25E7B9-F28E-4BEE-9601-CD813D332315" ModuleId="Parse" />
+  <Module PersistentId="6097F65C-4023-4FFF-9AF9-F73923195648" ModuleId="Core" />
+  <Module PersistentId="37A73DB7-A198-445F-AC82-739996E916D1" ModuleId="ProxyFactory" />
+  <Module PersistentId="4B1D2949-62C3-452F-90AC-9EA22D6BC075" ModuleId="CapchaResolver" />
+  <Module PersistentId="43177654-3D52-4593-A8A2-18914D1C2C62" ModuleId="StorageProvider" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
+  <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Core" />
+  <Module PersistentId="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml.Linq" />
+  <Module PersistentId="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.DataSetExtensions" />
+  <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.CSharp" />
+  <Module PersistentId="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data" />
+  <Module PersistentId="System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Deployment" />
+  <Module PersistentId="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml" />
+  <Module PersistentId="ParseKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="ParseKit" />
+  <Module PersistentId="4C9BE07B-7ABF-4297-8526-227DC0AE1E06" ModuleId="Browser_Emulator" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System_1" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib_1" />
+</Modules>

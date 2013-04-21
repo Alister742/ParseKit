@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E25E7B9-F28E-4BEE-9601-CD813D332315}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Parse</RootNamespace>
+    <AssemblyName>Parse</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Regexp\RegexParseAction.cs" />
+    <Compile Include="Regexp\RegexUtils\RegexContainers\AnonymousRegexes.cs" />
+    <Compile Include="Regexp\RegexUtils\RegexContainers\PagePatternGrabber.cs" />
+    <Compile Include="Regexp\RegexUtils\RegexContainers\SePatterns.cs" />
+    <Compile Include="Regexp\RegexUtils\RegexContainers\SitePatterns.cs" />
+    <Compile Include="Regexp\RegexUtils\RegexPatterns.cs" />
+    <Compile Include="Settings.cs" />
+    <None Include="DOM\DOMImplementation\AJAX\XMLHttpRequest.cs" />
+    <None Include="DOM\DOMImplementation\AJAX\XMLHttpRequestEventTarget.cs" />
+    <None Include="DOM\DOMImplementation\AJAX\XMLHttpRequestOptions.cs" />
+    <None Include="DOM\DOMImplementation\AJAX\XMLHttpRequestResponseType.cs" />
+    <None Include="DOM\DOMImplementation\AJAX\XMLHttpRequestUpload.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Collections\HTMLCollection.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Collections\NodeList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Errors\DOMError.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Errors\DOMException.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Errors\ExceptionCodes.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\CompositionEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\CustomEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Event.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\EventFactory.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\EventListener.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\EventTarget.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\FocusEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\ICompositionEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\ICustomEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IDocumentEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IEventListener.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IEventTarget.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IFocusEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IKeyboardEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IMouseEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IMutationEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IUIEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\Interfaces\IWheelEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\KeyboardEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\KnownEventsList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\MouseEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\MutationEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\UIEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Events\WheelEvent.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IAttr.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\ICharacterData.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IChildNode.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDocument.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDocumentFragment.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDOMError.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDOMException.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDOMImplementation.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IDOMTokenList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IEllement.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IHTMLCollection.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IMutationRecord.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\INodeFilter.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\INodeIterator.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\INodeList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IParentNode.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IRange.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\IText.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Interfaces\ITreeWalker.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Lists\DOMSettableTokenList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Lists\DOMTokenList.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Attr.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\CharacterData.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\ChildNode.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Comment.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Document.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\DocumentFragment.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\DocumentType.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\DOMImplementation.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Element.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\MUTATIONALG.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\MutationObserver.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\MutationRecord.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Node.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\NodeChangedAction.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\NodeChangedEventArgs.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\NodeDom4.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\ParentNode.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\ProcessingInstruction.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\sequence.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Nodes\Text.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Ranges\Range.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Traversal\DomWalker.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Traversal\NodeFilter.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Traversal\NodeIterator.cs" />
+    <None Include="DOM\DOMImplementation\DOMElements\Traversal\TreeWalker.cs" />
+    <None Include="DOM\DOMImplementation\ElementsConverter.cs" />
+    <Compile Include="DOM\DOMImplementation\HTMLElements\Documents\AbstractView.cs" />
+    <Compile Include="DOM\DOMImplementation\HTMLElements\Documents\Document.cs" />
+    <Compile Include="DOM\DOMImplementation\HTMLElements\Documents\DocumentView.cs" />
+    <Compile Include="DOM\DOMImplementation\HTMLElements\Documents\HtmlDocument.cs" />
+    <Compile Include="DOM\DOMImplementation\HTMLElements\Elements\HTMLElement.cs" />
+    <None Include="DOM\DOMImplementation\HTMLElements\Elements\Scripting\HTMLScriptElement.cs" />
+    <None Include="DOM\DOMImplementation\HTMLElements\Elements\Scripting\noscript.cs" />
+    <Compile Include="DOM\DOMImplementation\KnownElements.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\AttributeName.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\DispatchGroup.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\DocumentMode.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\DomTreeBuilder%28origin%29.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\DomTreeBuilder.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\ElementName.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\HtmlAttributes.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\InsertionMode.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\ITreeBuilder.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\NamedCharacterAccel.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\NamedCharacters.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\StackNode.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\Tokenizer.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\Tokenizer[modified].cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\TreeBuilder.cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\TreeBuilder[modified].cs" />
+    <None Include="DOM\DOMImplementation\UNDER_CONSTRUCTION\UTF16Buffer.cs" />
+    <None Include="DOM\DOMImplementation\____DOMParser.cs" />
+    <Compile Include="IParseAction.cs" />
+    <Compile Include="Validation\IPageValidator.cs" />
+    <Compile Include="Validation\RegexValidator.cs" />
+    <Compile Include="Validation\TagsValidator.cs" />
+    <Compile Include="Validation\HtmlValidator.cs" />
+    <Compile Include="ParseScheme.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\DocumentMetadata\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\Edits\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\EmbeddedContent\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\Forms\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\GroupingContent\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\InteractiveElements\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\Links\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\RootElement\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\Sections\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\TabularData\" />
+    <Folder Include="DOM\DOMImplementation\HTMLElements\Elements\Text-levelSemantics\" />
+    <Folder Include="DOM\DOMManipulator\" />
+    <Folder Include="HtmlAgilityPack\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{6097F65C-4023-4FFF-9AF9-F73923195648}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyFactory\ProxyFactory.csproj">
+      <Project>{37A73DB7-A198-445F-AC82-739996E916D1}</Project>
+      <Name>ProxyFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StorageProvider\Storage.csproj">
+      <Project>{43177654-3D52-4593-A8A2-18914D1C2C62}</Project>
+      <Name>Storage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

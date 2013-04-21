@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C9BE07B-7ABF-4297-8526-227DC0AE1E06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Browser_Emulator</RootNamespace>
+    <AssemblyName>Browser_Emulator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\Area.resx">
+      <DependentUpon>Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="_Source\Control.cs">
+      <SubType>Component</SubType>
+    </None>
+    <Compile Include="BrowserBot.cs" />
+    <Compile Include="AreaStyle.cs" />
+    <Compile Include="Interfaces\IWebBrowserEvents.cs" />
+    <Compile Include="_ParseKitClasses\FileWorker.cs" />
+    <Compile Include="WebEventProvider.cs" />
+    <Compile Include="GUI\Drawing.cs" />
+    <Compile Include="GUI\GDIDrawing.cs" />
+    <Compile Include="Interfaces\IPainter.cs" />
+    <Compile Include="GUI\Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Area.Designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <None Include="_Source\HtmlDocument.cs" />
+    <None Include="_Source\HtmlElement.cs" />
+    <None Include="_Source\HtmlElementCollection.cs" />
+    <None Include="_Source\HtmlElementErrorEventArgs.cs" />
+    <None Include="_Source\HtmlElementEventArgs.cs" />
+    <None Include="_Source\%28WTF%29HtmlHistory.cs" />
+    <None Include="_Source\%28WTF%29HtmlShim.cs" />
+    <None Include="_Source\%28WTF%29HtmlShimManager.cs" />
+    <None Include="_Source\%28WTF%29HtmlToClrEventProxy.cs" />
+    <None Include="_Source\HtmlHistory.cs" />
+    <None Include="_Source\HtmlWindow.cs" />
+    <None Include="_Source\HtmlWindowCollection.cs" />
+    <None Include="_Source\NativeMethods.cs" />
+    <None Include="_Source\UnsafeNativeMethods.cs" />
+    <None Include="_Source\WebBrowser.cs">
+      <SubType>Component</SubType>
+    </None>
+    <None Include="_Source\WebBrowserBase.cs">
+      <SubType>Component</SubType>
+    </None>
+    <None Include="_Source\WebBrowserContainer.cs" />
+    <None Include="_Source\WebBrowserDocumentCompletedEventHandler.cs" />
+    <None Include="_Source\WebBrowserHelper.cs" />
+    <None Include="_Source\WebBrowserNavigatedEventHandler.cs" />
+    <None Include="_Source\WebBrowserNavigatingEventHandler.cs" />
+    <None Include="_Source\WebBrowserProgressChangedEventHandler.cs" />
+    <None Include="_Source\WebBrowserSiteBase.cs" />
+    <None Include="_Source\WebBrowserUriTypeConverter.cs" />
+    <Compile Include="GUI\test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

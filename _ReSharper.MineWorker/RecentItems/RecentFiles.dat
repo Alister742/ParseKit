@@ -1,0 +1,57 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:ParseScheme.cs" caret="306" fromTop="12" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:IParseAction.cs" caret="217" fromTop="10" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/d:Regexp/f:RegexParseAction.cs" caret="13" fromTop="0" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:Settings.cs" caret="261" fromTop="13" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/d:Proxy/f:!ProxyTester.cs" caret="326" fromTop="5" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:GlobalResourceCache.cs" caret="468" fromTop="20" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/d:Validation/f:HtmlValidator.cs" caret="1131" fromTop="32" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxySiteProvider.cs" caret="92" fromTop="5" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxyProvider.cs" caret="109" fromTop="6" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:RequestMethods.cs" caret="0" fromTop="0" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:ResponseState.cs" caret="167" fromTop="9" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxyContainer.cs" caret="116" fromTop="6" />
+    <File id="4C9BE07B-7ABF-4297-8526-227DC0AE1E06/d:_ParseKitClasses/f:FileWorker.cs" caret="282" fromTop="13" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:GlobalLog.cs" caret="13" fromTop="0" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:RequestParams.cs" caret="1542" fromTop="35" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:ResponseParams.cs" caret="554" fromTop="18" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Transaction.cs" caret="9114" fromTop="35" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:Config.cs" caret="546" fromTop="17" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:HashQueue.cs" caret="74" fromTop="3" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:WaitObj.cs" caret="55" fromTop="2" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:SortedList.cs" caret="0" fromTop="0" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:HashsCountTable.cs" caret="0" fromTop="0" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Config.cs" caret="0" fromTop="0" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:_DownloadHandler.cs" caret="319" fromTop="10" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:HttpSession.cs" caret="140" fromTop="8" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Downloader.cs" caret="5312" fromTop="17" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:Config.cs" caret="128" fromTop="6" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:GlobalResourceCache.cs" caret="255" fromTop="10" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:PATHCaches.cs" caret="168" fromTop="8" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:Program.cs" caret="125" fromTop="7" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:UriHandler.cs" caret="237" fromTop="10" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:ParseScheme.cs" caret="306" fromTop="12" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:IParseAction.cs" caret="208" fromTop="9" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/d:Regexp/f:RegexParseAction.cs" caret="491" fromTop="19" />
+    <File id="1E25E7B9-F28E-4BEE-9601-CD813D332315/f:Settings.cs" caret="261" fromTop="13" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxyContainer.cs" caret="109" fromTop="6" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxyProvider.cs" caret="109" fromTop="6" />
+    <File id="37A73DB7-A198-445F-AC82-739996E916D1/f:IProxySiteProvider.cs" caret="109" fromTop="6" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:_DownloadHandler.cs" caret="6664" fromTop="34" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:ResponseState.cs" caret="167" fromTop="9" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/f:GlobalLog.cs" caret="13" fromTop="0" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:RequestParams.cs" caret="1542" fromTop="35" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:ResponseParams.cs" caret="554" fromTop="18" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Transaction.cs" caret="9114" fromTop="35" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Config.cs" caret="2684" fromTop="32" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:HashQueue.cs" caret="92" fromTop="3" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:HashsCountTable.cs" caret="0" fromTop="0" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:SortedList.cs" caret="0" fromTop="0" />
+    <File id="6097F65C-4023-4FFF-9AF9-F73923195648/d:ExternalTypes/f:WaitObj.cs" caret="55" fromTop="2" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:HttpSession.cs" caret="140" fromTop="8" />
+    <File id="1B95764F-2998-4F3C-A1E5-B634BEDE2087/f:Downloader.cs" caret="5927" fromTop="40" />
+  </RecentEdits>
+</RecentFiles>

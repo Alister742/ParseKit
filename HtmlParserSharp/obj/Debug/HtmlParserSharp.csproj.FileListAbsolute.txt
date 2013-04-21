@@ -1,0 +1,6 @@
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\bin\Debug\SampleData\test.html
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\bin\Debug\HtmlParser.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\obj\Debug\HtmlParser.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlParserSharp\obj\Debug\HtmlParser.pdb

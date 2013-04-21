@@ -1,0 +1,15 @@
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.Log.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.Main.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.Properties.Resources.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.Parse.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\GIUForLibraries.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\GIUForLibraries.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\ParseKit.dll
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\HtmlAgilityPack.dll
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\Noesis.Javascript.dll
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\bin\Debug\ParseKit.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\GIUForLibraries\obj\x86\Debug\GIUForLibraries.pdb
