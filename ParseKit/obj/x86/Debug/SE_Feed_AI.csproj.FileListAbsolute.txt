@@ -1,5 +1,0 @@
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\bin\Debug\SE_Feed_AI.exe
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\bin\Debug\SE_Feed_AI.pdb
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\SE_Feed_AI.exe
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\SE_Feed_AI.pdb

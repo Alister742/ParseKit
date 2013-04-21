@@ -43,6 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="!RequestResponseSOURCE\!HttpWebRequest.cs" />
+    <Compile Include="!RequestResponseSOURCE\!HttpWebResponse.cs" />
+    <Compile Include="!RequestResponseSOURCE\Internal.cs" />
+    <Compile Include="!RequestResponseSOURCE\IPGlobalProperties.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpCookie.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpCookieCollection.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpHeaderCollection.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpRequest.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpResponse.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpUtility.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpValueCollection.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\HttpWebResponse.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\KnownHttpVerb.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\WebHeaderCollection.cs" />
+    <Compile Include="!RequestResponseSOURCE\Network_WWW\WebResponse.cs" />
+    <Compile Include="!RequestResponseSOURCE\SettingsSection.cs" />
+    <Compile Include="!RequestResponseSOURCE\_AuthenticationState.cs" />
+    <Compile Include="!RequestResponseSOURCE\_ConnectStream.cs" />
+    <Compile Include="!RequestResponseSOURCE\_LazyAsyncResult.cs" />
+    <Compile Include="!RequestResponseSOURCE\_ProxyChain.cs" />
+    <Compile Include="!RequestResponseSOURCE\_TimerThread.cs" />
     <Compile Include="GlobalLog.cs" />
     <Compile Include="GlobalResourceCache.cs" />
     <Compile Include="Logger.cs" />

@@ -1,9 +1,0 @@
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\AnotherParsingTask_test2.exe
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\AnotherParsingTask_test2.pdb
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\HtmlAgilityPack.dll
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\ParseKit.pdb
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\obj\x86\Debug\AnotherParsingTask_test2.exe
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\obj\x86\Debug\AnotherParsingTask_test2.pdb
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\ParseKit.dll
-C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_test2\bin\Debug\Noesis.Javascript.dll
