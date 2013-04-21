@@ -1,0 +1,8 @@
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\bin\Release\AnotherParsingTask_Test.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\bin\Release\HtmlAgilityPack.dll
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\obj\x86\Release\AnotherParsingTask_Test.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\bin\Release\ParseKit.dll
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\bin\Release\ParseKit.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\bin\Release\AnotherParsingTask_Test.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\AnotherParsingTask_Test\obj\x86\Release\AnotherParsingTask_Test.exe

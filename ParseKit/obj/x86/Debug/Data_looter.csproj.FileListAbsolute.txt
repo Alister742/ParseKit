@@ -1,0 +1,9 @@
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\bin\Debug\Data_looter.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\bin\Debug\Data_looter.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\Data_looter.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\Data_looter.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\Data_looter.Proxy.Main.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\SE_Feed_AI\SE_Feed_AI\bin\Debug\Noesis.Javascript.dll

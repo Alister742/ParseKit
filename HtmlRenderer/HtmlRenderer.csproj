@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B058920-24B4-4140-8AE7-C8C6C38CA52D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HtmlRenderer</RootNamespace>
+    <AssemblyName>HtmlRenderer</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CssData.cs" />
+    <Compile Include="DemoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoForm.Designer.cs">
+      <DependentUpon>DemoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dom\CssBox.cs" />
+    <Compile Include="Dom\CssBoxWord.cs" />
+    <Compile Include="Dom\CssBoxProperties.cs" />
+    <Compile Include="Dom\CssLayoutEngine.cs" />
+    <Compile Include="Dom\CssLength.cs" />
+    <Compile Include="Dom\CssLineBox.cs" />
+    <Compile Include="Dom\CssRectangle.cs" />
+    <Compile Include="Dom\CssSpacingBox.cs" />
+    <Compile Include="Dom\CssTable.cs" />
+    <Compile Include="Entities\CssBlockSelectorItem.cs" />
+    <Compile Include="Entities\CssBlock.cs" />
+    <Compile Include="Entities\HtmlGenerationStyle.cs" />
+    <Compile Include="Entities\CssDefaults.cs" />
+    <Compile Include="Entities\HtmlTag.cs" />
+    <Compile Include="Entities\HtmlLinkClickedEventArgs.cs" />
+    <Compile Include="Parse\DomParser.cs" />
+    <Compile Include="Parse\CssValueParser.cs" />
+    <Compile Include="Parse\HtmlParser.cs" />
+    <Compile Include="HtmlContainer.cs" />
+    <Compile Include="Programm.cs" />
+    <Compile Include="Properties1\Resources.Designer.cs" />
+    <Compile Include="SyntaxHilight.cs" />
+    <Compile Include="Utils\ArgChecker.cs" />
+    <Compile Include="Utils\HtmlClipboardUtils.cs" />
+    <Compile Include="Utils\CssDrawingUtils.cs" />
+    <Compile Include="Entities\CssConstants.cs" />
+    <Compile Include="Entities\CssUnit.cs" />
+    <Compile Include="Entities\HtmlConstants.cs" />
+    <Compile Include="HtmlLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HtmlPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HtmlRender.cs" />
+    <Compile Include="HtmlToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Parse\CssParser.cs" />
+    <Compile Include="Parse\RegexParserUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CssUtils.cs" />
+    <Compile Include="Utils\DomUtils.cs" />
+    <Compile Include="Utils\HtmlUtils.cs" />
+    <Compile Include="Utils\SelectionHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="YouTube.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DemoForm.resx">
+      <DependentUpon>DemoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties1\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

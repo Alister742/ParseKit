@@ -1,0 +1,19 @@
+G:\HtmlRenderer\Source\HtmlRenderer\bin\Debug\HtmlRenderer.dll
+G:\HtmlRenderer\Source\HtmlRenderer\bin\Debug\HtmlRenderer.pdb
+G:\HtmlRenderer\Source\HtmlRenderer\obj\Debug\ResolveAssemblyReference.cache
+G:\HtmlRenderer\Source\HtmlRenderer\obj\Debug\HtmlRenderer.dll
+G:\HtmlRenderer\Source\HtmlRenderer\obj\Debug\HtmlRenderer.pdb
+C:\!Работа\SourceLibraries\HtmlRenderer\Source\HtmlRenderer\bin\Debug\HtmlRenderer.dll
+C:\!Работа\SourceLibraries\HtmlRenderer\Source\HtmlRenderer\bin\Debug\HtmlRenderer.pdb
+C:\!Работа\SourceLibraries\HtmlRenderer\Source\HtmlRenderer\obj\Debug\ResolveAssemblyReference.cache
+C:\!Работа\SourceLibraries\HtmlRenderer\Source\HtmlRenderer\obj\Debug\HtmlRenderer.dll
+C:\!Работа\SourceLibraries\HtmlRenderer\Source\HtmlRenderer\obj\Debug\HtmlRenderer.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\bin\Debug\HtmlRenderer.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\HtmlRenderer.pdb
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\bin\Debug\HtmlRenderer.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\HtmlRenderer.exe
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\HtmlRenderer.Properties1.Resources.resources
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\MineWorker\HtmlRenderer\obj\Debug\HtmlRenderer.Demo.DemoForm.resources
